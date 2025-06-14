@@ -18,3 +18,7 @@ Please note: JS assets don't work from external files when you just try to run t
 * I've not tested the performance or accessibility of what's been built here, but the loading messages should at least be readable by screenreaders without issue.
 * There's a few bits of boilerplate left over that I'd not removed in the `head.njk` import and around performance marks in the base layout too. These are parts of my Eleventy 'starter' that I use and update often as I build new shiny things. I've removed obviously unnecessary things like Open Graph, X/Twitter cards, favicon references, etc.
 * There's a few instances, mostly around the size of icons in the design file where they weren't whole pixels in width or height so I've rounded them up in these cases to the nearest pixel.
+
+## In case you're in a rush
+
+I deployed it on Vercel: https://evoluted-tech-test.vercel.app/
