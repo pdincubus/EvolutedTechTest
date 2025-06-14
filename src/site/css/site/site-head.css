@@ -1,0 +1,34 @@
+.site-head {
+    padding-block: var(--space-xl);
+    display: grid;
+    grid-template-columns: var(--cols);
+
+    @media (--from-tablet) {
+        grid-template-areas: "t t t t t t" "i p . . . .";
+        gap: var(--space-m) var(--space-l);
+    }
+
+    @media (--mobile) {
+        grid-template-areas: "t t" "i i" "p p";
+    }
+}
+
+.site-head .title {
+    grid-area: t;
+
+    @media (--mobile) {
+        margin-block-end: var(--space-m);
+    }
+}
+
+.site-head .info {
+    grid-area: i;
+
+    @media (--mobile) {
+        margin-block-end: var(--space-xs);
+    }
+}
+
+.site-head .person {
+    grid-area: p;
+}

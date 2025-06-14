@@ -1,0 +1,121 @@
+:root {
+    /* Recent shffld theme */
+    --offwhite: hsl(0deg 0% 98%);
+    --lightgrey: hsl(0deg 0% 66%);
+    --grey: hsl(0deg 0% 33%);
+    --darkgrey: hsl(0deg 0% 5%);
+    --darkness: hsl(0deg 0% 9%);
+    --deep-pink: hsl(325deg 100% 38%);
+    --tint-dark: hsl(0deg 0% 0% / 0.1);
+    --tint-light: hsl(0deg 100% 100% / 0.1);
+    --rubber-duck: hsl(54deg 100% 50%);
+    --cyan: hsl(180deg 100% 50%);
+
+    /* Old shffld theme */
+    --old-mist: hsl(0deg 0% 76% / 1);
+    --mineshaft: hsl(0deg 0% 19%);
+    --raspberry: hsl(330deg 100% 45% / 1);
+    --raspberry-text: hsl(330deg 100% 50% / 1);
+    --claret: hsl(338deg 58% 26% / 1);
+    --whiteish: hsl(0deg 0% 96% / 1);
+
+    /* Flare Insight */
+    --clementine: hsl(28deg 100% 44%);
+    --pizazz: hsl(34deg 100% 50%);
+    --polo: hsl(213deg 38% 67%);
+    --periwinkle: hsl(215deg 44% 84%);
+    --bunting: hsl(217deg 36% 21%);
+    --sapphire: hsl(221deg 100% 20%);
+    --tuatara: hsl(0deg 0% 27%);
+
+    /* WGRA */
+    --true: hsl(206deg 100% 39%);
+    --sand: hsl(0deg 0% 96%);
+    --ocean: hsl(207deg 100% 24%);
+    --prussian: hsl(207deg 100% 16%);
+    --real-white: hsl(0deg 100% 100% / 1);
+    --dark: hsl(207deg 0% 13%);
+
+    /* WECTF */
+    --lily: hsl(126deg 0% 92%);
+    --almost-black: hsl(126deg 0% 13%);
+    --harvard-crimson: hsl(354deg 100% 40%);
+    --red: hsl(0deg 100% 50%);
+    --kelly: hsl(98deg 69% 40%);
+    --la-salle: hsl(140deg 100% 25%);
+
+    /* Jess Parker */
+    --wildsand: hsl(126deg 0% 96%);
+    --grey2: hsl(126deg 0% 24%);
+    --apple: hsl(78deg 100% 38%);
+    --napier: hsl(126deg 98% 32%);
+
+    /* James Lowe */
+    --dark-grey: hsl(0deg 0% 15%);
+    --light-grey: hsl(0deg 0% 96%);
+    --mid-light-grey: hsl(0deg 0% 64%);
+    --bright-green: hsl(155deg 100% 56%);
+
+    /* Oldfield Bespoke Furniture */
+    --bright: hsl(56deg 100% 50% / 1);
+    --tint: hsl(0deg 100% 100% / 0.1);
+
+    /* HDF */
+    --kettle-black: hsl(240deg 7% 8%);
+    --water-ouzel: hsl(220deg 7% 33%);
+    --lace-veil: hsl(60deg 2% 92%);
+    --hdf-2024-dark: hsl(275deg 16% 30%);
+    --hdf-2024-mid: hsl(347deg 66% 48%);
+    --hdf-2024-light: hsl(45deg 93% 58%);
+    --hdf-2024-fade1: hsl(45deg 93% 58% / 0.1);
+    --hdf-2024-fade2: hsl(289deg 61% 74% / 0.1);
+    --hdf-old-darkblue: hsl(192deg 100% 14%);
+    --hdf-old-gold: hsl(49deg 92% 62%);
+    --hdf-old-grey: hsl(60deg 4% 85%);
+    --hdf-old-lightgrey: hsl(60deg 2% 92%);
+    --hdf-2025-dark: hsl(231deg 35% 15%);
+    --hdf-2025-mid: hsl(331deg 72% 47%);
+    --hdf-2025-light: hsl(194deg 100% 49%);
+    --hdf-2025-fade1: hsl(331deg 72% 47% / 0.05);
+    --hdf-2025-fade2: hsl(231deg 35% 15% / 0.1);
+
+    /* NPPT */
+    --nppt-light-grey-old: hsl(0deg 0% 93%);
+    --nppt-dark-grey-old: hsl(0deg 0% 20%);
+    --nppt-lilac: #a05de1;
+    --nppt-amethyst: hsl(266deg 60% 60%);
+    --nppt-dark-amethyst: hsl(266deg 60% 30%);
+    --nppt-very-dark-purple: hsl(266deg 60% 15%);
+    --nppt-light-grey: hsl(0deg 0% 80%);
+    --nppt-grey: hsl(0deg 0% 60%);
+    --nppt-dark-grey: hsl(1deg 0% 27%);
+    --nppt-cyan: hsl(194deg 100% 40%);
+    --nppt-off-white: hsl(0deg 0% 94%);
+    --yellow: hsl(60deg 100% 50%);
+
+    /* Burntwood */
+    --bwch-teal-old: hsl(174deg 55% 45%);
+    --bwch-grey-old: hsl(0deg 0% 20%);
+    --bwch-teal: hsl(178deg 83% 37%);
+    --bwch-darker-teal: hsl(178deg 56% 32%);
+    --bwch-darkest-teal: hsl(174deg 85% 12%);
+    --bwch-black: hsl(0deg 0% 5%);
+    --bwch-grey: hsl(0deg 0% 18%);
+    --bwch-slate: hsl(0deg 0% 32%);
+    --bwch-light-grey: hsl(0deg 0% 80%);
+
+    /* Plates Made Simple */
+    --pms-royalblue: hsl(218.8 100% 20%);
+    --pms-numberplate: hsl(48 100% 50%);
+
+    /* Your Coach */
+    --yc-black: hsl(0 0% 10%);
+    --yc-grey: hsl(0 0% 80%);
+    --yc-grey-dark: hsl(0 0% 30%);
+    --yc-grey-light: hsl(0 0% 92%);
+    --yc-blue-grey: hsl(192deg 4% 54%);
+    --yc-blue-grey-dark: hsl(203deg 14% 30%);
+    --yc-blue-grey-darkest: hsl(203deg 14% 15%);
+    --yc-yellow-green: hsl(73deg 100% 58%);
+    --yc-off-white: hsl(75deg 13% 94%);
+}

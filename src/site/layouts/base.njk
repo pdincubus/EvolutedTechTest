@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js is_loading">
+    <head>
+        {% include 'head.njk' %}
+    </head>
+
+    <body class="body no-focus {{ bodyclass }}">
+        <script>performance.mark('Body start');</script>
+
+        {% include 'header.njk' %}
+
+        <main>
+            {{ content | safe }}
+        </main>
+
+        <script>
+            performance.mark('Body end');
+            performance.measure('Body time', 'Body start', 'Body end');
+        </script>
+    </body>
+</html>

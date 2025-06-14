@@ -1,0 +1,49 @@
+:root {
+    --ff: "Lato", system-ui;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+
+    --fs-s: 0.9375rem; /* 15px of 16px base */
+    --fs-m: 1.125rem; /* 18px of 16px base */
+    --fs-l: 1.5rem; /* 24px of 16px base */
+    --fs-xl: 2.25rem; /* 36px of 16px base */
+    --fs-2xl: 3.75rem; /* 60px of 16px base */
+
+    --fs-body: var(--fs-s);
+    --fs-heading1: var(--fs-2xl);
+    --fs-heading2: var(--fs-xl);
+    --fs-heading3: var(--fs-xl);
+
+    --lh-2xs: 1; /* Headings are set to 100% */
+    --lh-xs: 1.333333; /* 20px height on 15px font */
+    --lh-s: 1.444444; /* 26px height on 18px font */
+    --lh-m: 1.5; /* 36px height on 24px font */
+
+    --max-width: 1170px;
+
+    --space-xs: 0.3125rem; /* 5px on 16px base */
+    --space-s: 0.625rem; /* 10px on 16px base */
+    --space-m: 1.25rem;  /* 20px on 16px base */
+    --space-l: 1.875rem; /* 30px on 16px base */
+    --space-xl: 3.75rem; /* 60px on 16px base */
+
+    --cols: max-content max-content repeat(4, 1fr);
+
+    --c-blue-dark: hsla(230deg 45% 13%);
+    --c-blue: hsl(209deg 58% 43%);
+    --c-white: hsl(0deg 0% 100%);
+}
+
+@media (--mobile) {
+    :root {
+        --fs-xl: 1.875rem; /* 30px of 16px base */
+        --fs-2xl: 2.25rem; /* 36px of 16px base */
+
+        --space-m: 0.9375rem;  /* 15px on 16px base */
+        --space-l: 1.25rem; /* 20px on 16px base */
+        --space-xl: 2.5rem; /* 40px on 16px base */
+
+        --cols: 1fr 1fr;
+    }
+}
