@@ -45,7 +45,7 @@ export default class NASAAstronomyPictureOfTheDay {
             .then(json => {
                 this.todayPhotoTitleElem.textContent = json.title;
                 this.todayDateNiceElem.textContent = json.date;
-                this.todayImgElem.setAttribute('src', json.hdurl);
+                this.todayImgElem.setAttribute('src', json.url);
                 this.todayImgElem.setAttribute('alt', json.title);
                 this.todayDateElem.setAttribute('datetime', json.date);
 
