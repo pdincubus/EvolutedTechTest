@@ -3,7 +3,7 @@
     font-style: normal;
     font-display: swap;
     font-weight: var(--fw-normal);
-    src: url("../fonts/lato-400.woff2") format("woff2-variations");
+    src: url("../fonts/lato-400.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,5 +11,5 @@
     font-style: normal;
     font-display: swap;
     font-weight: var(--fw-bold);
-    src: url("../fonts/lato-700.woff2") format("woff2-variations");
+    src: url("../fonts/lato-700.woff2") format("woff2");
 }
