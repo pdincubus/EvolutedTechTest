@@ -25,7 +25,7 @@ export default class NASAAstronomyPictureOfTheDay {
 
         this.loadingClass = loadingClass;
         this.hiddenClass = hiddenClass;
-        this.apiBaseUrl = 'https://api.nasa.gov/planetary/apod?api_key=EZAtQ3pbffknEVYv5EdhddsIudQQSHd58xkq2zQm'
+        this.apiBaseUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
 
         this.init();
     }
